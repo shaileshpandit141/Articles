@@ -1,0 +1,77 @@
+
+/* || RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* || define for store CSS variables */
+:root {
+    --word-letter-spacing: 0.05em;
+    --text-font-color: #273239;
+}
+
+/* || Body  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+/* || This container is store everything for document Article */
+.main__article {
+    margin: 1rem;
+}
+
+/* || for section devision */
+.main__article section * {
+    margin: 2rem auto;
+}
+
+/* || main heading */
+.main__article__heading {
+    color: var(--text-font-color);
+    font-size: 2em;
+}
+
+/* || image for Project */
+.main__article__img {
+    max-width: 70%;
+}
+
+/* || All Paragraph inside the main article */
+.main__article p,
+.main__article a {
+    color: var(--text-font-color);
+    font-size: 1.1rem;
+    font-weight:400;
+}
+
+/* || Content common Styles */
+.main__article p,
+.main__article h3,
+.main__article a {
+    color: var(--text-font-color);
+    line-height: 1.5em;
+    word-spacing: var(--word-letter-spacing);
+    letter-spacing: var(--word-letter-spacing);
+}
+
+/* || convert inline to block element */
+.main__article a {
+    display: block;
+}
+
+/* || For link are visited */
+.main__article a:visited,
+.main__article a:focus {
+    color: #ef5131;
+}
+
+/* || Heighliter */
+.main__article span {
+    text-transform: uppercase;
+    color: #6fa24d;
+}
