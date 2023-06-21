@@ -2,7 +2,6 @@
 
 This repository houses a collection of articles designed using HTML and CSS. The purpose of this repository is to provide a platform for showcasing and sharing articles with an attractive and visually appealing presentation.
 
----
 
 ## Features
 
@@ -12,7 +11,6 @@ __Responsive Design:__ The articles are designed to be responsive and compatible
 
 __Article Display:__ The application includes a dedicated page to display individual articles. Users can view the article's title, content, metadata, and any associated comments or discussions.
 
----
 
 ## Technologies Used
 
@@ -22,7 +20,6 @@ __HTML:__ The articles' content and structure are created using HTML (Hypertext 
 
 __CSS:__ The articles' styling and layout are implemented using CSS (Cascading Style Sheets), which enhances the visual presentation and aesthetics of the articles.
 
----
 
 ## How to Run the Application
 
